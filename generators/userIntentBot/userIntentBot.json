@@ -1,0 +1,13 @@
+{
+  "name": "a1386582-74dc-479b-8b29-63c954ffd6ab",
+  "displayName": "userIntentBot",
+  "modelParameter": {
+    "temperature": 0.5,
+    "maxDecodeSteps": 128,
+    "topP": 0.94999999,
+    "topK": 40
+  },
+  "llmModelSettings": {
+    "model": "text-bison"
+  }
+}

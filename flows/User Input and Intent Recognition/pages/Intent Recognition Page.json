@@ -1,0 +1,32 @@
+{
+  "name": "120cc5d7-870d-44f2-b3f2-f2c011b37560",
+  "displayName": "Intent Recognition Page",
+  "form": {
+  
+  },
+  "entryFulfillment": {
+    "messages": [ {
+      "text": {
+        "text": [ "I'm here for you. Can you share more about what's on your mind?" ]
+      },
+      "languageCode": "en"
+    } ]
+  },
+  "transitionRoutes": [ {
+    "intent": "Positive response",
+    "triggerFulfillment": {
+      "messages": [ {
+        "text": {
+          "text": [ "$request.generative" ]
+        },
+        "languageCode": "en"
+      } ],
+      "generators": [ {
+        "generator": "projects/chatbot-mentalhealth/locations/us-central1/agents/bd07ff89-1227-44e2-a2aa-e75c97f596e2/generators/647a0771-852c-4aab-b31e-b68df262cc90",
+        "outputParameter": "$request.generative"
+      } ]
+    },
+    "targetPage": "End Session",
+    "name": "28bb9dd5-febc-47f6-adae-3d0b1a05a2bf"
+  } ]
+}

@@ -1,22 +1,13 @@
 {
-  "name": "00000000-0000-0000-0000-000000000000",
-  "displayName": "Default Start Flow",
-  "description": "A start flow created along with the agent",
+  "name": "2df5897c-26b3-4f6b-835a-eb9a6688d23a",
+  "displayName": "User Input and Intent Recognition",
   "transitionRoutes": [ {
-    "intent": "Default Welcome Intent",
+    "intent": "concern",
     "triggerFulfillment": {
-      "messages": [ {
-        "text": {
-          "text": [ "$request.generative" ]
-        },
-        "languageCode": "en"
-      } ],
-      "generators": [ {
-        "generator": "projects/chatbot-mentalhealth/locations/us-central1/agents/bd07ff89-1227-44e2-a2aa-e75c97f596e2/generators/3be90d2d-df43-4909-be3b-477549b2d548",
-        "outputParameter": "$request.generative"
-      } ]
+    
     },
-    "name": "b54a9586-18c5-46d8-b6e0-8225978ca1bf"
+    "targetPage": "Intent Recognition Page",
+    "name": "6050b865-9f9d-4cdc-a84a-0482e0a52425"
   } ],
   "eventHandlers": [ {
     "event": "sys.no-match-default",
@@ -28,7 +19,7 @@
         "languageCode": "en"
       } ]
     },
-    "name": "07b210c4-e790-4ef7-9f1c-113e99c7cf9a"
+    "name": "b5e7f01f-4433-4701-9eb0-41743b0f7ddd"
   }, {
     "event": "sys.no-input-default",
     "triggerFulfillment": {
@@ -39,7 +30,7 @@
         "languageCode": "en"
       } ]
     },
-    "name": "d33eab9c-a6c0-4c1f-8926-b1dadbb359ba"
+    "name": "da7a02e2-2207-4af3-93b9-526dbe643b84"
   } ],
   "nluSettings": {
     "modelType": "MODEL_TYPE_STANDARD",

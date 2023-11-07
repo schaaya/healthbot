@@ -1,0 +1,13 @@
+{
+  "name": "647a0771-852c-4aab-b31e-b68df262cc90",
+  "displayName": "ConsoleAi",
+  "modelParameter": {
+    "temperature": 0.5,
+    "maxDecodeSteps": 128,
+    "topP": 0.94999999,
+    "topK": 40
+  },
+  "llmModelSettings": {
+    "model": "text-bison"
+  }
+}
