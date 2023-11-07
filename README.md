@@ -63,8 +63,8 @@ We're actively working on integrating the chatbot with various platforms using D
 - Implement support for multiple languages to cater to a broader audience.
 
 ## Screenshots
-
-
+![alt text](https://github.com/schaaya/healthbot/blob/main/Screenshot%202023-11-06%20212848.png)
+![alt text](https://github.com/schaaya/healthbot/blob/main/Screenshot%202023-11-06%20213048.png)
 
 Happy coding! 🚀
 
