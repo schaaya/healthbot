@@ -1,0 +1,122 @@
+#textblock {
+  background-color: #210002;
+  height: 100vh;
+}
+
+#textblock-container {
+  width: 50%;
+  margin: 0 auto;
+  padding-top: 70px;
+}
+
+#textblock-title {
+  color: #ffaf1b;
+  font-size: 35px;
+  font-weight: 600;
+  font-family: "Helvetica Neue";
+}
+
+#textblock-content {
+  color: #ffaf1b;
+  font-size: 20px;
+}
+
+#textblock-footer {
+  color: #ffaf1b;
+  font-size: 15px;
+  font-weight: 400;
+  position: fixed;
+  width: 100%;
+  bottom: 0px;
+  justify-content:center;
+  align-items:center;
+  text-align:center;
+  margin-bottom: 20px;
+
+}
+
+#textblock-devsense {
+  text-decoration: none;
+  color: #ffaf1b;
+  font-size: 15px;
+  font-weight: 600;
+}
+
+.animation, .animation_layer {
+	height: 1000px;
+}
+
+.animation {
+  display: block;
+	position: relative;
+	z-index: 10;
+}
+
+.animation_layer {
+	background-position: bottom center;
+	background-size: auto 1038px;
+	background-repeat: repeat-x;
+	width: 100%;
+	position: absolute;
+}
+.animation_layer.parallax {
+	position: fixed;
+}
+
+#artback {
+  background-image: url(./images/background.png);
+}
+
+#mountain {
+  background-image: url(./images/mountains.png);
+}
+
+#logoland {
+  position: absolute;
+  top:30%;
+  background-color: transparent;
+  color: white;
+  font-size: 32px;
+  font-family: 'Hedvig Letters Serif', serif;
+  font-weight: 600;
+  text-align: center;
+  line-height: 100px;
+  position: relative;
+  z-index: 999; 
+}
+
+#jungle1 {
+  background-image: url(./images/jungle1.png);
+}
+
+#jungle2 {
+  background-image: url(./images/jungle2.png);
+}
+
+#jungle3 {
+  background-image: url(./images/jungle3.png);
+}
+
+#jungle4 {
+  background-image: url(./images/jungle4.png);
+}
+
+#jungle5 {
+  background-image: url(./images/jungle5.png);
+}
+
+#manonmountain {
+  background-image: url(./images/man_on_mountain.png);
+}
+
+df-messenger {
+  z-index: 999;
+  position: fixed;
+  bottom: 16px;
+  right: 16px;
+}
+
+.df-messenger-wrapper {
+  --df-messenger-user-color: #FFA500; /* Set the user message color to orange */
+  --df-messenger-agent-color: #00BFFF; /* Set the agent (bot) message color to a different color if needed */
+}
