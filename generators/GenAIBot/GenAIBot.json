@@ -1,0 +1,13 @@
+{
+  "name": "3be90d2d-df43-4909-be3b-477549b2d548",
+  "displayName": "GenAIBot",
+  "modelParameter": {
+    "temperature": 0.5,
+    "maxDecodeSteps": 128,
+    "topP": 0.94999999,
+    "topK": 40
+  },
+  "llmModelSettings": {
+    "model": "text-bison"
+  }
+}
