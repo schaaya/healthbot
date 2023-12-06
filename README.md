@@ -1,6 +1,10 @@
 # Mental Health Chatbot healthbot Readme
 
-Welcome to the documentation for our Mental Health Chatbot! This chatbot is designed to provide support and guidance in the realm of mental health. Below are the implemented flows as of now:
+Welcome to the documentation for our Mental Health Chatbot! This chatbot is designed to provide support and guidance in the realm of mental health. 
+
+Try out the WebApp now: https://main--taupe-mooncake-4c2106.netlify.app/
+
+Below are the implemented flows as of now
 
 ## Welcome Flow
 
