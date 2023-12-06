@@ -1,5 +1,7 @@
 # Mental Health Chatbot healthbot Readme
 
+![alt text](https://github.com/schaaya/healthbot/blob/main/HomeScreen.png)
+
 Welcome to the documentation for our Mental Health Chatbot! This chatbot is designed to provide support and guidance in the realm of mental health. 
 
 Try out the WebApp now: https://main--taupe-mooncake-4c2106.netlify.app/
